@@ -15,6 +15,7 @@
 		8D0CDEF320CA8973004949E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0CDEF120CA8973004949E8 /* LaunchScreen.storyboard */; };
 		8D0CDEFE20CA8973004949E8 /* ZBESPLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDEFD20CA8973004949E8 /* ZBESPLibraryTests.swift */; };
 		8D0CDF0920CA8973004949E8 /* ZBESPLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDF0820CA8973004949E8 /* ZBESPLibraryUITests.swift */; };
+		8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A480A20CE22E100CC161D /* ZBESPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8D0CDF0420CA8973004949E8 /* ZBESPLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBESPLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0CDF0820CA8973004949E8 /* ZBESPLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPLibraryUITests.swift; sourceTree = "<group>"; };
 		8D0CDF0A20CA8973004949E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3A480A20CE22E100CC161D /* ZBESPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8D0CDEDA20CA8972004949E8 = {
 			isa = PBXGroup;
 			children = (
+				8D3A480520CE208F00CC161D /* ZBESPManager */,
 				8D0CDEE520CA8972004949E8 /* ZBESPLibrary */,
 				8D0CDEFC20CA8973004949E8 /* ZBESPLibraryTests */,
 				8D0CDF0720CA8973004949E8 /* ZBESPLibraryUITests */,
@@ -126,6 +129,46 @@
 				8D0CDF0A20CA8973004949E8 /* Info.plist */,
 			);
 			path = ZBESPLibraryUITests;
+			sourceTree = "<group>";
+		};
+		8D3A480520CE208F00CC161D /* ZBESPManager */ = {
+			isa = PBXGroup;
+			children = (
+				8D3A480A20CE22E100CC161D /* ZBESPManager.swift */,
+				8D3A480920CE229F00CC161D /* ZBDeviceManager */,
+				8D3A480820CE21CC00CC161D /* ZBIOManager */,
+				8D3A480720CE21B500CC161D /* ZBDataManager */,
+				8D3A480620CE213700CC161D /* ZBLinkManager */,
+			);
+			path = ZBESPManager;
+			sourceTree = "<group>";
+		};
+		8D3A480620CE213700CC161D /* ZBLinkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBLinkManager;
+			sourceTree = "<group>";
+		};
+		8D3A480720CE21B500CC161D /* ZBDataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBDataManager;
+			sourceTree = "<group>";
+		};
+		8D3A480820CE21CC00CC161D /* ZBIOManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBIOManager;
+			sourceTree = "<group>";
+		};
+		8D3A480920CE229F00CC161D /* ZBDeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBDeviceManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */,
 				8D0CDEEB20CA8972004949E8 /* SecondViewController.swift in Sources */,
 				8D0CDEE720CA8972004949E8 /* AppDelegate.swift in Sources */,
 				8D0CDEE920CA8972004949E8 /* FirstViewController.swift in Sources */,
