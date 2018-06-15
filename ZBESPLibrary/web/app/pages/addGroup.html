@@ -1,0 +1,38 @@
+
+<div class="init-width">
+    <transition name="moves">
+        <div v-show="addFlag" class="add-group add-info">
+            <div class="title-info">
+                <h4 class="app-title">
+                    <span @click="hide"><i class="icon-left back"></i></span>
+                    {{name}}
+                </h4>
+                <span @click="save" class="right-top save-info"><i class="icon-checkmark-round"></i></span>
+            </div>
+            <div class="selected-radio">
+                <div>{{$t('selectDevice')}}({{selected}}/{{total}})</div>
+                <div><span @click="selectAllDevice($event)" class="span-radio"
+                           :class="{'active': (selected == total && selected != 0)}"><span></span></span></div>
+            </div>
+            <div class="content-info flex" :id="addGroupId">
+                <div class="input-info">
+                    <i class="icon-search"></i>
+                    <input @focus="focus($event)" @blur="blur($event)" v-model="searchName" type="search" class="form-control" :placeholder="$t('search')">
+                </div>
+                <div v-for="item in list" class="item">
+                    <div class="item-icon-circle">
+                        <i class="icon-light"></i>
+                    </div>
+                    <div class="item-name up-date padding-left-10">
+                        <span :data-value="item.mac">{{item.position}}</span>
+                        <span :data-value="item.mac" :class="{'desc': item.position != ''}">{{item.name}}</span>
+                    </div>
+                    <div class="item-power-small">
+                        <span :data-value="item.mac" @click="selectDevice($event)"
+                              class="span-radio"><span></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </transition>
+</div>

@@ -15,6 +15,147 @@
 		8D0CDF0920CA8973004949E8 /* ZBESPLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDF0820CA8973004949E8 /* ZBESPLibraryUITests.swift */; };
 		8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A480A20CE22E100CC161D /* ZBESPManager.swift */; };
 		8D3A480D20CF798B00CC161D /* ZBUdpScanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A480C20CF798B00CC161D /* ZBUdpScanManager.swift */; };
+		8D502A4E20D3DD7D00BC0437 /* mint-ui.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D50298D20D3DD7D00BC0437 /* mint-ui.css */; };
+		8D502A4F20D3DD7D00BC0437 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D50298E20D3DD7D00BC0437 /* style.css */; };
+		8D502A5020D3DD7D00BC0437 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299020D3DD7D00BC0437 /* icomoon.ttf */; };
+		8D502A5120D3DD7D00BC0437 /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299120D3DD7D00BC0437 /* icomoon.woff */; };
+		8D502A5220D3DD7D00BC0437 /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299220D3DD7D00BC0437 /* icomoon.eot */; };
+		8D502A5320D3DD7D00BC0437 /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299320D3DD7D00BC0437 /* icomoon.svg */; };
+		8D502A5420D3DD7D00BC0437 /* bootstrap-slider.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299420D3DD7D00BC0437 /* bootstrap-slider.min.css */; };
+		8D502A5520D3DD7D00BC0437 /* setPair.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299620D3DD7D00BC0437 /* setPair.js */; };
+		8D502A5620D3DD7D00BC0437 /* automation.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299720D3DD7D00BC0437 /* automation.js */; };
+		8D502A5720D3DD7D00BC0437 /* setDevicePair.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299820D3DD7D00BC0437 /* setDevicePair.js */; };
+		8D502A5820D3DD7D00BC0437 /* addDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299920D3DD7D00BC0437 /* addDevice.js */; };
+		8D502A5920D3DD7D00BC0437 /* resetDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299A20D3DD7D00BC0437 /* resetDevice.js */; };
+		8D502A5A20D3DD7D00BC0437 /* groupInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299B20D3DD7D00BC0437 /* groupInfo.js */; };
+		8D502A5B20D3DD7D00BC0437 /* user.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299C20D3DD7D00BC0437 /* user.js */; };
+		8D502A5C20D3DD7D00BC0437 /* addGroup.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299D20D3DD7D00BC0437 /* addGroup.js */; };
+		8D502A5D20D3DD7D00BC0437 /* conDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299E20D3DD7D00BC0437 /* conDevice.js */; };
+		8D502A5E20D3DD7D00BC0437 /* joinDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D50299F20D3DD7D00BC0437 /* joinDevice.js */; };
+		8D502A5F20D3DD7D00BC0437 /* aboutDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A020D3DD7D00BC0437 /* aboutDevice.js */; };
+		8D502A6020D3DD7D00BC0437 /* scanDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A120D3DD7D00BC0437 /* scanDevice.js */; };
+		8D502A6120D3DD7D00BC0437 /* deviceTypeInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A220D3DD7D00BC0437 /* deviceTypeInfo.js */; };
+		8D502A6220D3DD7D00BC0437 /* pairList.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A320D3DD7D00BC0437 /* pairList.js */; };
+		8D502A6320D3DD7D00BC0437 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A420D3DD7D00BC0437 /* index.js */; };
+		8D502A6420D3DD7D00BC0437 /* register.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A520D3DD7D00BC0437 /* register.js */; };
+		8D502A6520D3DD7D00BC0437 /* colorPicker.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A620D3DD7D00BC0437 /* colorPicker.js */; };
+		8D502A6620D3DD7D00BC0437 /* set.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A720D3DD7D00BC0437 /* set.js */; };
+		8D502A6720D3DD7D00BC0437 /* remind.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A820D3DD7D00BC0437 /* remind.js */; };
+		8D502A6820D3DD7D00BC0437 /* password.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029A920D3DD7D00BC0437 /* password.js */; };
+		8D502A6920D3DD7D00BC0437 /* load.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AA20D3DD7D00BC0437 /* load.js */; };
+		8D502A6A20D3DD7D00BC0437 /* login.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AB20D3DD7D00BC0437 /* login.js */; };
+		8D502A6B20D3DD7D00BC0437 /* router.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AC20D3DD7D00BC0437 /* router.js */; };
+		8D502A6C20D3DD7D00BC0437 /* selectDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AD20D3DD7D00BC0437 /* selectDevice.js */; };
+		8D502A6D20D3DD7D00BC0437 /* scanInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AE20D3DD7D00BC0437 /* scanInfo.js */; };
+		8D502A6E20D3DD7D00BC0437 /* ibeacon.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029AF20D3DD7D00BC0437 /* ibeacon.js */; };
+		8D502A6F20D3DD7D00BC0437 /* groupColor.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B020D3DD7D00BC0437 /* groupColor.js */; };
+		8D502A7020D3DD7D00BC0437 /* base.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B120D3DD7D00BC0437 /* base.js */; };
+		8D502A7120D3DD7D00BC0437 /* attr.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B220D3DD7D00BC0437 /* attr.js */; };
+		8D502A7220D3DD7D00BC0437 /* operateDevice.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B320D3DD7D00BC0437 /* operateDevice.js */; };
+		8D502A7320D3DD7D00BC0437 /* pair.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B420D3DD7D00BC0437 /* pair.js */; };
+		8D502A7420D3DD7D00BC0437 /* deviceType.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B520D3DD7D00BC0437 /* deviceType.js */; };
+		8D502A7520D3DD7D00BC0437 /* scanContent.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B620D3DD7D00BC0437 /* scanContent.js */; };
+		8D502A7620D3DD7D00BC0437 /* userinfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B720D3DD7D00BC0437 /* userinfo.js */; };
+		8D502A7720D3DD7D00BC0437 /* scan.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B820D3DD7D00BC0437 /* scan.js */; };
+		8D502A7820D3DD7D00BC0437 /* otaInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029B920D3DD7D00BC0437 /* otaInfo.js */; };
+		8D502A7920D3DD7D00BC0437 /* reports.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BA20D3DD7D00BC0437 /* reports.js */; };
+		8D502A7A20D3DD7D00BC0437 /* recent.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BB20D3DD7D00BC0437 /* recent.js */; };
+		8D502A7B20D3DD7D00BC0437 /* ibeaconInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BC20D3DD7D00BC0437 /* ibeaconInfo.js */; };
+		8D502A7C20D3DD7D00BC0437 /* group.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BD20D3DD7D00BC0437 /* group.js */; };
+		8D502A7D20D3DD7D00BC0437 /* footer.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BE20D3DD7D00BC0437 /* footer.js */; };
+		8D502A7E20D3DD7D00BC0437 /* debug.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029BF20D3DD7D00BC0437 /* debug.js */; };
+		8D502A7F20D3DD7D00BC0437 /* debugInfo.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C020D3DD7D00BC0437 /* debugInfo.js */; };
+		8D502A8020D3DD7D00BC0437 /* aboutUs.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C120D3DD7D00BC0437 /* aboutUs.js */; };
+		8D502A8120D3DD7D00BC0437 /* groupColor.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C320D3DD7D00BC0437 /* groupColor.html */; };
+		8D502A8220D3DD7D00BC0437 /* aboutUs.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C420D3DD7D00BC0437 /* aboutUs.html */; };
+		8D502A8320D3DD7D00BC0437 /* scanInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C520D3DD7D00BC0437 /* scanInfo.html */; };
+		8D502A8420D3DD7D00BC0437 /* colorPicker.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C620D3DD7D00BC0437 /* colorPicker.html */; };
+		8D502A8520D3DD7D00BC0437 /* setPair.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C720D3DD7D00BC0437 /* setPair.html */; };
+		8D502A8620D3DD7D00BC0437 /* deviceType.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C820D3DD7D00BC0437 /* deviceType.html */; };
+		8D502A8720D3DD7D00BC0437 /* scanContent.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029C920D3DD7D00BC0437 /* scanContent.html */; };
+		8D502A8820D3DD7D00BC0437 /* conDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CA20D3DD7D00BC0437 /* conDevice.html */; };
+		8D502A8920D3DD7D00BC0437 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CB20D3DD7D00BC0437 /* index.html */; };
+		8D502A8A20D3DD7D00BC0437 /* scan.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CC20D3DD7D00BC0437 /* scan.html */; };
+		8D502A8B20D3DD7D00BC0437 /* load.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CD20D3DD7D00BC0437 /* load.html */; };
+		8D502A8C20D3DD7D00BC0437 /* addGroup.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CE20D3DD7D00BC0437 /* addGroup.html */; };
+		8D502A8D20D3DD7D00BC0437 /* pair.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029CF20D3DD7D00BC0437 /* pair.html */; };
+		8D502A8E20D3DD7D00BC0437 /* group.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D020D3DD7D00BC0437 /* group.html */; };
+		8D502A8F20D3DD7D00BC0437 /* setDevicePair.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D120D3DD7D00BC0437 /* setDevicePair.html */; };
+		8D502A9020D3DD7D00BC0437 /* ibeaconInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D220D3DD7D00BC0437 /* ibeaconInfo.html */; };
+		8D502A9120D3DD7D00BC0437 /* pairList.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D320D3DD7D00BC0437 /* pairList.html */; };
+		8D502A9220D3DD7D00BC0437 /* operateDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D420D3DD7D00BC0437 /* operateDevice.html */; };
+		8D502A9320D3DD7D00BC0437 /* automation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D520D3DD7D00BC0437 /* automation.html */; };
+		8D502A9420D3DD7D00BC0437 /* debugInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D620D3DD7D00BC0437 /* debugInfo.html */; };
+		8D502A9520D3DD7D00BC0437 /* attr.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D720D3DD7D00BC0437 /* attr.html */; };
+		8D502A9620D3DD7D00BC0437 /* recent.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D820D3DD7D00BC0437 /* recent.html */; };
+		8D502A9720D3DD7D00BC0437 /* register.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029D920D3DD7D00BC0437 /* register.html */; };
+		8D502A9820D3DD7D00BC0437 /* user.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DA20D3DD7D00BC0437 /* user.html */; };
+		8D502A9920D3DD7D00BC0437 /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DB20D3DD7D00BC0437 /* login.html */; };
+		8D502A9A20D3DD7D00BC0437 /* remind.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DC20D3DD7D00BC0437 /* remind.html */; };
+		8D502A9B20D3DD7D00BC0437 /* ibeacon.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DD20D3DD7D00BC0437 /* ibeacon.html */; };
+		8D502A9C20D3DD7D00BC0437 /* addDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DE20D3DD7D00BC0437 /* addDevice.html */; };
+		8D502A9D20D3DD7D00BC0437 /* scanDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029DF20D3DD7D00BC0437 /* scanDevice.html */; };
+		8D502A9E20D3DD7D00BC0437 /* userinfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E020D3DD7D00BC0437 /* userinfo.html */; };
+		8D502A9F20D3DD7D00BC0437 /* deviceTypeInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E120D3DD7D00BC0437 /* deviceTypeInfo.html */; };
+		8D502AA020D3DD7D00BC0437 /* selectDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E220D3DD7D00BC0437 /* selectDevice.html */; };
+		8D502AA120D3DD7D00BC0437 /* groupInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E320D3DD7D00BC0437 /* groupInfo.html */; };
+		8D502AA220D3DD7D00BC0437 /* otaInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E420D3DD7D00BC0437 /* otaInfo.html */; };
+		8D502AA320D3DD7D00BC0437 /* resetDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E520D3DD7D00BC0437 /* resetDevice.html */; };
+		8D502AA420D3DD7D00BC0437 /* debug.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E620D3DD7D00BC0437 /* debug.html */; };
+		8D502AA520D3DD7D00BC0437 /* footer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E720D3DD7D00BC0437 /* footer.html */; };
+		8D502AA620D3DD7D00BC0437 /* joinDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E820D3DD7D00BC0437 /* joinDevice.html */; };
+		8D502AA720D3DD7D00BC0437 /* set.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029E920D3DD7D00BC0437 /* set.html */; };
+		8D502AA820D3DD7D00BC0437 /* aboutDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029EA20D3DD7D00BC0437 /* aboutDevice.html */; };
+		8D502AA920D3DD7D00BC0437 /* reports.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029EB20D3DD7D00BC0437 /* reports.html */; };
+		8D502AAA20D3DD7D00BC0437 /* password.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029EC20D3DD7D00BC0437 /* password.html */; };
+		8D502AAB20D3DD7D00BC0437 /* mint-ui.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029EE20D3DD7D00BC0437 /* mint-ui.css */; };
+		8D502AAC20D3DD7D00BC0437 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F020D3DD7D00BC0437 /* icomoon.ttf */; };
+		8D502AAD20D3DD7D00BC0437 /* icomoon.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F120D3DD7D00BC0437 /* icomoon.woff */; };
+		8D502AAE20D3DD7D00BC0437 /* icomoon.eot in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F220D3DD7D00BC0437 /* icomoon.eot */; };
+		8D502AAF20D3DD7D00BC0437 /* icomoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F320D3DD7D00BC0437 /* icomoon.svg */; };
+		8D502AB020D3DD7D00BC0437 /* bootstrap-slider.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F420D3DD7D00BC0437 /* bootstrap-slider.min.css */; };
+		8D502AB120D3DD7D00BC0437 /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F620D3DD7D00BC0437 /* default_avatar.png */; };
+		8D502AB220D3DD7D00BC0437 /* aboutUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F720D3DD7D00BC0437 /* aboutUs.png */; };
+		8D502AB320D3DD7D00BC0437 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F820D3DD7D00BC0437 /* login.png */; };
+		8D502AB420D3DD7D00BC0437 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029F920D3DD7D00BC0437 /* loading.gif */; };
+		8D502AB520D3DD7D00BC0437 /* light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029FA20D3DD7D00BC0437 /* light.jpg */; };
+		8D502AB620D3DD7D00BC0437 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029FB20D3DD7D00BC0437 /* logo.png */; };
+		8D502AB720D3DD7D00BC0437 /* round.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029FC20D3DD7D00BC0437 /* round.gif */; };
+		8D502AB820D3DD7D00BC0437 /* failure.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029FD20D3DD7D00BC0437 /* failure.png */; };
+		8D502AB920D3DD7D00BC0437 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5029FE20D3DD7D00BC0437 /* network.png */; };
+		8D502ABA20D3DD7D00BC0437 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0120D3DD7D00BC0437 /* bootstrap.min.js */; };
+		8D502ABB20D3DD7D00BC0437 /* vue-touch.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0320D3DD7D00BC0437 /* vue-touch.js */; };
+		8D502ABC20D3DD7D00BC0437 /* mint-ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0420D3DD7D00BC0437 /* mint-ui.js */; };
+		8D502ABD20D3DD7D00BC0437 /* vue-i18n.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0520D3DD7D00BC0437 /* vue-i18n.min.js */; };
+		8D502ABE20D3DD7D00BC0437 /* vuex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0620D3DD7D00BC0437 /* vuex.min.js */; };
+		8D502ABF20D3DD7D00BC0437 /* vue-router.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0720D3DD7D00BC0437 /* vue-router.min.js */; };
+		8D502AC020D3DD7D00BC0437 /* vue.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0820D3DD7D00BC0437 /* vue.min.js */; };
+		8D502AC120D3DD7D00BC0437 /* layer.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0920D3DD7D00BC0437 /* layer.js */; };
+		8D502AC220D3DD7D00BC0437 /* text.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0A20D3DD7D00BC0437 /* text.js */; };
+		8D502AC320D3DD7D00BC0437 /* jquery-ui.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0C20D3DD7D00BC0437 /* jquery-ui.min.js */; };
+		8D502AC420D3DD7D00BC0437 /* iscroll.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0D20D3DD7D00BC0437 /* iscroll.js */; };
+		8D502AC520D3DD7D00BC0437 /* colorwheel.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0E20D3DD7D00BC0437 /* colorwheel.js */; };
+		8D502AC620D3DD7D00BC0437 /* jquery.panzoom.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A0F20D3DD7D00BC0437 /* jquery.panzoom.js */; };
+		8D502AC720D3DD7D00BC0437 /* jquery.ui.touch-punch.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1020D3DD7D00BC0437 /* jquery.ui.touch-punch.min.js */; };
+		8D502AC820D3DD7D00BC0437 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1120D3DD7D00BC0437 /* jquery.min.js */; };
+		8D502AC920D3DD7D00BC0437 /* jsplumb.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1220D3DD7D00BC0437 /* jsplumb.min.js */; };
+		8D502ACA20D3DD7D00BC0437 /* fastclick.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1320D3DD7D00BC0437 /* fastclick.js */; };
+		8D502ACB20D3DD7D00BC0437 /* hammer.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1420D3DD7D00BC0437 /* hammer.min.js */; };
+		8D502ACC20D3DD7D00BC0437 /* raphael.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1520D3DD7D00BC0437 /* raphael.js */; };
+		8D502ACD20D3DD7D00BC0437 /* bootstrap-slider.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1620D3DD7D00BC0437 /* bootstrap-slider.min.js */; };
+		8D502ACE20D3DD7D00BC0437 /* echarts.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1720D3DD7D00BC0437 /* echarts.min.js */; };
+		8D502ACF20D3DD7D00BC0437 /* require.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1820D3DD7D00BC0437 /* require.js */; };
+		8D502AD020D3DD7D00BC0437 /* constant.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1920D3DD7D00BC0437 /* constant.js */; };
+		8D502AD120D3DD7D00BC0437 /* ipad.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1A20D3DD7D00BC0437 /* ipad.js */; };
+		8D502AD220D3DD7D00BC0437 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1B20D3DD7D00BC0437 /* app.js */; };
+		8D502AD320D3DD7D00BC0437 /* en.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1D20D3DD7D00BC0437 /* en.js */; };
+		8D502AD420D3DD7D00BC0437 /* zh.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A1E20D3DD7D00BC0437 /* zh.js */; };
+		8D502AFB20D3DD7D00BC0437 /* app.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D502A4B20D3DD7D00BC0437 /* app.html */; };
+		8D502B0520D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502AFD20D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.m */; };
+		8D502B0620D3DDBD00BC0437 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502AFE20D3DDBD00BC0437 /* WKWebViewJavascriptBridge.m */; };
+		8D502B0720D3DDBD00BC0437 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502AFF20D3DDBD00BC0437 /* WebViewJavascriptBridge.m */; };
+		8D502B0820D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D502B0220D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.m */; };
+		8D502B0B20D3E74B00BC0437 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D502B0A20D3E74B00BC0437 /* MobileCoreServices.framework */; };
 		8D5F42A920D22460004E2226 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F42A820D22460004E2226 /* HomeViewController.swift */; };
 		8D5F42AB20D39AE0004E2226 /* ZBESPHTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F42AA20D39AE0004E2226 /* ZBESPHTTPManager.swift */; };
 		8D95952E20D3B6B700FF6717 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */; };
@@ -67,6 +208,151 @@
 		8D3A480A20CE22E100CC161D /* ZBESPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPManager.swift; sourceTree = "<group>"; };
 		8D3A480C20CF798B00CC161D /* ZBUdpScanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBUdpScanManager.swift; sourceTree = "<group>"; };
 		8D3A480E20CF79F000CC161D /* ZBESPLibrary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZBESPLibrary-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D50298D20D3DD7D00BC0437 /* mint-ui.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mint-ui.css"; sourceTree = "<group>"; };
+		8D50298E20D3DD7D00BC0437 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		8D50299020D3DD7D00BC0437 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		8D50299120D3DD7D00BC0437 /* icomoon.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.woff; sourceTree = "<group>"; };
+		8D50299220D3DD7D00BC0437 /* icomoon.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.eot; sourceTree = "<group>"; };
+		8D50299320D3DD7D00BC0437 /* icomoon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icomoon.svg; sourceTree = "<group>"; };
+		8D50299420D3DD7D00BC0437 /* bootstrap-slider.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "bootstrap-slider.min.css"; sourceTree = "<group>"; };
+		8D50299620D3DD7D00BC0437 /* setPair.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = setPair.js; sourceTree = "<group>"; };
+		8D50299720D3DD7D00BC0437 /* automation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = automation.js; sourceTree = "<group>"; };
+		8D50299820D3DD7D00BC0437 /* setDevicePair.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = setDevicePair.js; sourceTree = "<group>"; };
+		8D50299920D3DD7D00BC0437 /* addDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = addDevice.js; sourceTree = "<group>"; };
+		8D50299A20D3DD7D00BC0437 /* resetDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = resetDevice.js; sourceTree = "<group>"; };
+		8D50299B20D3DD7D00BC0437 /* groupInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groupInfo.js; sourceTree = "<group>"; };
+		8D50299C20D3DD7D00BC0437 /* user.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = user.js; sourceTree = "<group>"; };
+		8D50299D20D3DD7D00BC0437 /* addGroup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = addGroup.js; sourceTree = "<group>"; };
+		8D50299E20D3DD7D00BC0437 /* conDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = conDevice.js; sourceTree = "<group>"; };
+		8D50299F20D3DD7D00BC0437 /* joinDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = joinDevice.js; sourceTree = "<group>"; };
+		8D5029A020D3DD7D00BC0437 /* aboutDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aboutDevice.js; sourceTree = "<group>"; };
+		8D5029A120D3DD7D00BC0437 /* scanDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scanDevice.js; sourceTree = "<group>"; };
+		8D5029A220D3DD7D00BC0437 /* deviceTypeInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = deviceTypeInfo.js; sourceTree = "<group>"; };
+		8D5029A320D3DD7D00BC0437 /* pairList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pairList.js; sourceTree = "<group>"; };
+		8D5029A420D3DD7D00BC0437 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		8D5029A520D3DD7D00BC0437 /* register.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = register.js; sourceTree = "<group>"; };
+		8D5029A620D3DD7D00BC0437 /* colorPicker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = colorPicker.js; sourceTree = "<group>"; };
+		8D5029A720D3DD7D00BC0437 /* set.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = set.js; sourceTree = "<group>"; };
+		8D5029A820D3DD7D00BC0437 /* remind.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = remind.js; sourceTree = "<group>"; };
+		8D5029A920D3DD7D00BC0437 /* password.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = password.js; sourceTree = "<group>"; };
+		8D5029AA20D3DD7D00BC0437 /* load.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = load.js; sourceTree = "<group>"; };
+		8D5029AB20D3DD7D00BC0437 /* login.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = login.js; sourceTree = "<group>"; };
+		8D5029AC20D3DD7D00BC0437 /* router.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = router.js; sourceTree = "<group>"; };
+		8D5029AD20D3DD7D00BC0437 /* selectDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = selectDevice.js; sourceTree = "<group>"; };
+		8D5029AE20D3DD7D00BC0437 /* scanInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scanInfo.js; sourceTree = "<group>"; };
+		8D5029AF20D3DD7D00BC0437 /* ibeacon.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ibeacon.js; sourceTree = "<group>"; };
+		8D5029B020D3DD7D00BC0437 /* groupColor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groupColor.js; sourceTree = "<group>"; };
+		8D5029B120D3DD7D00BC0437 /* base.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = base.js; sourceTree = "<group>"; };
+		8D5029B220D3DD7D00BC0437 /* attr.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = attr.js; sourceTree = "<group>"; };
+		8D5029B320D3DD7D00BC0437 /* operateDevice.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = operateDevice.js; sourceTree = "<group>"; };
+		8D5029B420D3DD7D00BC0437 /* pair.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pair.js; sourceTree = "<group>"; };
+		8D5029B520D3DD7D00BC0437 /* deviceType.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = deviceType.js; sourceTree = "<group>"; };
+		8D5029B620D3DD7D00BC0437 /* scanContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scanContent.js; sourceTree = "<group>"; };
+		8D5029B720D3DD7D00BC0437 /* userinfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = userinfo.js; sourceTree = "<group>"; };
+		8D5029B820D3DD7D00BC0437 /* scan.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scan.js; sourceTree = "<group>"; };
+		8D5029B920D3DD7D00BC0437 /* otaInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = otaInfo.js; sourceTree = "<group>"; };
+		8D5029BA20D3DD7D00BC0437 /* reports.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = reports.js; sourceTree = "<group>"; };
+		8D5029BB20D3DD7D00BC0437 /* recent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = recent.js; sourceTree = "<group>"; };
+		8D5029BC20D3DD7D00BC0437 /* ibeaconInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ibeaconInfo.js; sourceTree = "<group>"; };
+		8D5029BD20D3DD7D00BC0437 /* group.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = group.js; sourceTree = "<group>"; };
+		8D5029BE20D3DD7D00BC0437 /* footer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = footer.js; sourceTree = "<group>"; };
+		8D5029BF20D3DD7D00BC0437 /* debug.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = debug.js; sourceTree = "<group>"; };
+		8D5029C020D3DD7D00BC0437 /* debugInfo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = debugInfo.js; sourceTree = "<group>"; };
+		8D5029C120D3DD7D00BC0437 /* aboutUs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aboutUs.js; sourceTree = "<group>"; };
+		8D5029C320D3DD7D00BC0437 /* groupColor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = groupColor.html; sourceTree = "<group>"; };
+		8D5029C420D3DD7D00BC0437 /* aboutUs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutUs.html; sourceTree = "<group>"; };
+		8D5029C520D3DD7D00BC0437 /* scanInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scanInfo.html; sourceTree = "<group>"; };
+		8D5029C620D3DD7D00BC0437 /* colorPicker.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = colorPicker.html; sourceTree = "<group>"; };
+		8D5029C720D3DD7D00BC0437 /* setPair.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = setPair.html; sourceTree = "<group>"; };
+		8D5029C820D3DD7D00BC0437 /* deviceType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = deviceType.html; sourceTree = "<group>"; };
+		8D5029C920D3DD7D00BC0437 /* scanContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scanContent.html; sourceTree = "<group>"; };
+		8D5029CA20D3DD7D00BC0437 /* conDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conDevice.html; sourceTree = "<group>"; };
+		8D5029CB20D3DD7D00BC0437 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		8D5029CC20D3DD7D00BC0437 /* scan.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scan.html; sourceTree = "<group>"; };
+		8D5029CD20D3DD7D00BC0437 /* load.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = load.html; sourceTree = "<group>"; };
+		8D5029CE20D3DD7D00BC0437 /* addGroup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addGroup.html; sourceTree = "<group>"; };
+		8D5029CF20D3DD7D00BC0437 /* pair.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pair.html; sourceTree = "<group>"; };
+		8D5029D020D3DD7D00BC0437 /* group.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group.html; sourceTree = "<group>"; };
+		8D5029D120D3DD7D00BC0437 /* setDevicePair.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = setDevicePair.html; sourceTree = "<group>"; };
+		8D5029D220D3DD7D00BC0437 /* ibeaconInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ibeaconInfo.html; sourceTree = "<group>"; };
+		8D5029D320D3DD7D00BC0437 /* pairList.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pairList.html; sourceTree = "<group>"; };
+		8D5029D420D3DD7D00BC0437 /* operateDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = operateDevice.html; sourceTree = "<group>"; };
+		8D5029D520D3DD7D00BC0437 /* automation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = automation.html; sourceTree = "<group>"; };
+		8D5029D620D3DD7D00BC0437 /* debugInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = debugInfo.html; sourceTree = "<group>"; };
+		8D5029D720D3DD7D00BC0437 /* attr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = attr.html; sourceTree = "<group>"; };
+		8D5029D820D3DD7D00BC0437 /* recent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = recent.html; sourceTree = "<group>"; };
+		8D5029D920D3DD7D00BC0437 /* register.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = register.html; sourceTree = "<group>"; };
+		8D5029DA20D3DD7D00BC0437 /* user.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = user.html; sourceTree = "<group>"; };
+		8D5029DB20D3DD7D00BC0437 /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		8D5029DC20D3DD7D00BC0437 /* remind.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = remind.html; sourceTree = "<group>"; };
+		8D5029DD20D3DD7D00BC0437 /* ibeacon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ibeacon.html; sourceTree = "<group>"; };
+		8D5029DE20D3DD7D00BC0437 /* addDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = addDevice.html; sourceTree = "<group>"; };
+		8D5029DF20D3DD7D00BC0437 /* scanDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scanDevice.html; sourceTree = "<group>"; };
+		8D5029E020D3DD7D00BC0437 /* userinfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = userinfo.html; sourceTree = "<group>"; };
+		8D5029E120D3DD7D00BC0437 /* deviceTypeInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = deviceTypeInfo.html; sourceTree = "<group>"; };
+		8D5029E220D3DD7D00BC0437 /* selectDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = selectDevice.html; sourceTree = "<group>"; };
+		8D5029E320D3DD7D00BC0437 /* groupInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = groupInfo.html; sourceTree = "<group>"; };
+		8D5029E420D3DD7D00BC0437 /* otaInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = otaInfo.html; sourceTree = "<group>"; };
+		8D5029E520D3DD7D00BC0437 /* resetDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = resetDevice.html; sourceTree = "<group>"; };
+		8D5029E620D3DD7D00BC0437 /* debug.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = debug.html; sourceTree = "<group>"; };
+		8D5029E720D3DD7D00BC0437 /* footer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = footer.html; sourceTree = "<group>"; };
+		8D5029E820D3DD7D00BC0437 /* joinDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = joinDevice.html; sourceTree = "<group>"; };
+		8D5029E920D3DD7D00BC0437 /* set.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = set.html; sourceTree = "<group>"; };
+		8D5029EA20D3DD7D00BC0437 /* aboutDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutDevice.html; sourceTree = "<group>"; };
+		8D5029EB20D3DD7D00BC0437 /* reports.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reports.html; sourceTree = "<group>"; };
+		8D5029EC20D3DD7D00BC0437 /* password.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = password.html; sourceTree = "<group>"; };
+		8D5029EE20D3DD7D00BC0437 /* mint-ui.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mint-ui.css"; sourceTree = "<group>"; };
+		8D5029F020D3DD7D00BC0437 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		8D5029F120D3DD7D00BC0437 /* icomoon.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.woff; sourceTree = "<group>"; };
+		8D5029F220D3DD7D00BC0437 /* icomoon.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.eot; sourceTree = "<group>"; };
+		8D5029F320D3DD7D00BC0437 /* icomoon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icomoon.svg; sourceTree = "<group>"; };
+		8D5029F420D3DD7D00BC0437 /* bootstrap-slider.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "bootstrap-slider.min.css"; sourceTree = "<group>"; };
+		8D5029F620D3DD7D00BC0437 /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar.png; sourceTree = "<group>"; };
+		8D5029F720D3DD7D00BC0437 /* aboutUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutUs.png; sourceTree = "<group>"; };
+		8D5029F820D3DD7D00BC0437 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		8D5029F920D3DD7D00BC0437 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		8D5029FA20D3DD7D00BC0437 /* light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light.jpg; sourceTree = "<group>"; };
+		8D5029FB20D3DD7D00BC0437 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8D5029FC20D3DD7D00BC0437 /* round.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = round.gif; sourceTree = "<group>"; };
+		8D5029FD20D3DD7D00BC0437 /* failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = failure.png; sourceTree = "<group>"; };
+		8D5029FE20D3DD7D00BC0437 /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = network.png; sourceTree = "<group>"; };
+		8D502A0120D3DD7D00BC0437 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		8D502A0320D3DD7D00BC0437 /* vue-touch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vue-touch.js"; sourceTree = "<group>"; };
+		8D502A0420D3DD7D00BC0437 /* mint-ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mint-ui.js"; sourceTree = "<group>"; };
+		8D502A0520D3DD7D00BC0437 /* vue-i18n.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vue-i18n.min.js"; sourceTree = "<group>"; };
+		8D502A0620D3DD7D00BC0437 /* vuex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vuex.min.js; sourceTree = "<group>"; };
+		8D502A0720D3DD7D00BC0437 /* vue-router.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vue-router.min.js"; sourceTree = "<group>"; };
+		8D502A0820D3DD7D00BC0437 /* vue.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vue.min.js; sourceTree = "<group>"; };
+		8D502A0920D3DD7D00BC0437 /* layer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = layer.js; sourceTree = "<group>"; };
+		8D502A0A20D3DD7D00BC0437 /* text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = text.js; sourceTree = "<group>"; };
+		8D502A0C20D3DD7D00BC0437 /* jquery-ui.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-ui.min.js"; sourceTree = "<group>"; };
+		8D502A0D20D3DD7D00BC0437 /* iscroll.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iscroll.js; sourceTree = "<group>"; };
+		8D502A0E20D3DD7D00BC0437 /* colorwheel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = colorwheel.js; sourceTree = "<group>"; };
+		8D502A0F20D3DD7D00BC0437 /* jquery.panzoom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.panzoom.js; sourceTree = "<group>"; };
+		8D502A1020D3DD7D00BC0437 /* jquery.ui.touch-punch.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.ui.touch-punch.min.js"; sourceTree = "<group>"; };
+		8D502A1120D3DD7D00BC0437 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		8D502A1220D3DD7D00BC0437 /* jsplumb.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsplumb.min.js; sourceTree = "<group>"; };
+		8D502A1320D3DD7D00BC0437 /* fastclick.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fastclick.js; sourceTree = "<group>"; };
+		8D502A1420D3DD7D00BC0437 /* hammer.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hammer.min.js; sourceTree = "<group>"; };
+		8D502A1520D3DD7D00BC0437 /* raphael.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = raphael.js; sourceTree = "<group>"; };
+		8D502A1620D3DD7D00BC0437 /* bootstrap-slider.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "bootstrap-slider.min.js"; sourceTree = "<group>"; };
+		8D502A1720D3DD7D00BC0437 /* echarts.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = echarts.min.js; sourceTree = "<group>"; };
+		8D502A1820D3DD7D00BC0437 /* require.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = require.js; sourceTree = "<group>"; };
+		8D502A1920D3DD7D00BC0437 /* constant.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = constant.js; sourceTree = "<group>"; };
+		8D502A1A20D3DD7D00BC0437 /* ipad.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ipad.js; sourceTree = "<group>"; };
+		8D502A1B20D3DD7D00BC0437 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		8D502A1D20D3DD7D00BC0437 /* en.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = en.js; sourceTree = "<group>"; };
+		8D502A1E20D3DD7D00BC0437 /* zh.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zh.js; sourceTree = "<group>"; };
+		8D502A4B20D3DD7D00BC0437 /* app.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = app.html; sourceTree = "<group>"; };
+		8D502AFD20D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		8D502AFE20D3DDBD00BC0437 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		8D502AFF20D3DDBD00BC0437 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		8D502B0020D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		8D502B0120D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		8D502B0220D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		8D502B0320D3DDBD00BC0437 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		8D502B0420D3DDBD00BC0437 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		8D502B0A20D3E74B00BC0437 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8D5F42A820D22460004E2226 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8D5F42AA20D39AE0004E2226 /* ZBESPHTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPHTTPManager.swift; sourceTree = "<group>"; };
 		8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +390,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D502B0B20D3E74B00BC0437 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +420,7 @@
 				8D0CDEFC20CA8973004949E8 /* ZBESPLibraryTests */,
 				8D0CDF0720CA8973004949E8 /* ZBESPLibraryUITests */,
 				8D0CDEE420CA8972004949E8 /* Products */,
+				8D502B0920D3E74B00BC0437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +437,8 @@
 		8D0CDEE520CA8972004949E8 /* ZBESPLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				8D502AFC20D3DDBD00BC0437 /* WebViewJavascriptBridge */,
+				8D50298820D3DD7D00BC0437 /* web */,
 				8D0CDEE620CA8972004949E8 /* AppDelegate.swift */,
 				8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */,
 				8D0CDEEF20CA8973004949E8 /* Assets.xcassets */,
@@ -219,6 +509,276 @@
 			children = (
 			);
 			path = ZBDeviceManager;
+			sourceTree = "<group>";
+		};
+		8D50298820D3DD7D00BC0437 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				8D50298B20D3DD7D00BC0437 /* app */,
+				8D5029ED20D3DD7D00BC0437 /* css */,
+				8D5029F520D3DD7D00BC0437 /* images */,
+				8D5029FF20D3DD7D00BC0437 /* js */,
+				8D502A1C20D3DD7D00BC0437 /* lang */,
+				8D502A4B20D3DD7D00BC0437 /* app.html */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		8D50298B20D3DD7D00BC0437 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				8D50298C20D3DD7D00BC0437 /* css */,
+				8D50299520D3DD7D00BC0437 /* js */,
+				8D5029C220D3DD7D00BC0437 /* pages */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		8D50298C20D3DD7D00BC0437 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				8D50298D20D3DD7D00BC0437 /* mint-ui.css */,
+				8D50298E20D3DD7D00BC0437 /* style.css */,
+				8D50298F20D3DD7D00BC0437 /* fonts */,
+				8D50299420D3DD7D00BC0437 /* bootstrap-slider.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		8D50298F20D3DD7D00BC0437 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D50299020D3DD7D00BC0437 /* icomoon.ttf */,
+				8D50299120D3DD7D00BC0437 /* icomoon.woff */,
+				8D50299220D3DD7D00BC0437 /* icomoon.eot */,
+				8D50299320D3DD7D00BC0437 /* icomoon.svg */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8D50299520D3DD7D00BC0437 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				8D50299620D3DD7D00BC0437 /* setPair.js */,
+				8D50299720D3DD7D00BC0437 /* automation.js */,
+				8D50299820D3DD7D00BC0437 /* setDevicePair.js */,
+				8D50299920D3DD7D00BC0437 /* addDevice.js */,
+				8D50299A20D3DD7D00BC0437 /* resetDevice.js */,
+				8D50299B20D3DD7D00BC0437 /* groupInfo.js */,
+				8D50299C20D3DD7D00BC0437 /* user.js */,
+				8D50299D20D3DD7D00BC0437 /* addGroup.js */,
+				8D50299E20D3DD7D00BC0437 /* conDevice.js */,
+				8D50299F20D3DD7D00BC0437 /* joinDevice.js */,
+				8D5029A020D3DD7D00BC0437 /* aboutDevice.js */,
+				8D5029A120D3DD7D00BC0437 /* scanDevice.js */,
+				8D5029A220D3DD7D00BC0437 /* deviceTypeInfo.js */,
+				8D5029A320D3DD7D00BC0437 /* pairList.js */,
+				8D5029A420D3DD7D00BC0437 /* index.js */,
+				8D5029A520D3DD7D00BC0437 /* register.js */,
+				8D5029A620D3DD7D00BC0437 /* colorPicker.js */,
+				8D5029A720D3DD7D00BC0437 /* set.js */,
+				8D5029A820D3DD7D00BC0437 /* remind.js */,
+				8D5029A920D3DD7D00BC0437 /* password.js */,
+				8D5029AA20D3DD7D00BC0437 /* load.js */,
+				8D5029AB20D3DD7D00BC0437 /* login.js */,
+				8D5029AC20D3DD7D00BC0437 /* router.js */,
+				8D5029AD20D3DD7D00BC0437 /* selectDevice.js */,
+				8D5029AE20D3DD7D00BC0437 /* scanInfo.js */,
+				8D5029AF20D3DD7D00BC0437 /* ibeacon.js */,
+				8D5029B020D3DD7D00BC0437 /* groupColor.js */,
+				8D5029B120D3DD7D00BC0437 /* base.js */,
+				8D5029B220D3DD7D00BC0437 /* attr.js */,
+				8D5029B320D3DD7D00BC0437 /* operateDevice.js */,
+				8D5029B420D3DD7D00BC0437 /* pair.js */,
+				8D5029B520D3DD7D00BC0437 /* deviceType.js */,
+				8D5029B620D3DD7D00BC0437 /* scanContent.js */,
+				8D5029B720D3DD7D00BC0437 /* userinfo.js */,
+				8D5029B820D3DD7D00BC0437 /* scan.js */,
+				8D5029B920D3DD7D00BC0437 /* otaInfo.js */,
+				8D5029BA20D3DD7D00BC0437 /* reports.js */,
+				8D5029BB20D3DD7D00BC0437 /* recent.js */,
+				8D5029BC20D3DD7D00BC0437 /* ibeaconInfo.js */,
+				8D5029BD20D3DD7D00BC0437 /* group.js */,
+				8D5029BE20D3DD7D00BC0437 /* footer.js */,
+				8D5029BF20D3DD7D00BC0437 /* debug.js */,
+				8D5029C020D3DD7D00BC0437 /* debugInfo.js */,
+				8D5029C120D3DD7D00BC0437 /* aboutUs.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		8D5029C220D3DD7D00BC0437 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				8D5029C320D3DD7D00BC0437 /* groupColor.html */,
+				8D5029C420D3DD7D00BC0437 /* aboutUs.html */,
+				8D5029C520D3DD7D00BC0437 /* scanInfo.html */,
+				8D5029C620D3DD7D00BC0437 /* colorPicker.html */,
+				8D5029C720D3DD7D00BC0437 /* setPair.html */,
+				8D5029C820D3DD7D00BC0437 /* deviceType.html */,
+				8D5029C920D3DD7D00BC0437 /* scanContent.html */,
+				8D5029CA20D3DD7D00BC0437 /* conDevice.html */,
+				8D5029CB20D3DD7D00BC0437 /* index.html */,
+				8D5029CC20D3DD7D00BC0437 /* scan.html */,
+				8D5029CD20D3DD7D00BC0437 /* load.html */,
+				8D5029CE20D3DD7D00BC0437 /* addGroup.html */,
+				8D5029CF20D3DD7D00BC0437 /* pair.html */,
+				8D5029D020D3DD7D00BC0437 /* group.html */,
+				8D5029D120D3DD7D00BC0437 /* setDevicePair.html */,
+				8D5029D220D3DD7D00BC0437 /* ibeaconInfo.html */,
+				8D5029D320D3DD7D00BC0437 /* pairList.html */,
+				8D5029D420D3DD7D00BC0437 /* operateDevice.html */,
+				8D5029D520D3DD7D00BC0437 /* automation.html */,
+				8D5029D620D3DD7D00BC0437 /* debugInfo.html */,
+				8D5029D720D3DD7D00BC0437 /* attr.html */,
+				8D5029D820D3DD7D00BC0437 /* recent.html */,
+				8D5029D920D3DD7D00BC0437 /* register.html */,
+				8D5029DA20D3DD7D00BC0437 /* user.html */,
+				8D5029DB20D3DD7D00BC0437 /* login.html */,
+				8D5029DC20D3DD7D00BC0437 /* remind.html */,
+				8D5029DD20D3DD7D00BC0437 /* ibeacon.html */,
+				8D5029DE20D3DD7D00BC0437 /* addDevice.html */,
+				8D5029DF20D3DD7D00BC0437 /* scanDevice.html */,
+				8D5029E020D3DD7D00BC0437 /* userinfo.html */,
+				8D5029E120D3DD7D00BC0437 /* deviceTypeInfo.html */,
+				8D5029E220D3DD7D00BC0437 /* selectDevice.html */,
+				8D5029E320D3DD7D00BC0437 /* groupInfo.html */,
+				8D5029E420D3DD7D00BC0437 /* otaInfo.html */,
+				8D5029E520D3DD7D00BC0437 /* resetDevice.html */,
+				8D5029E620D3DD7D00BC0437 /* debug.html */,
+				8D5029E720D3DD7D00BC0437 /* footer.html */,
+				8D5029E820D3DD7D00BC0437 /* joinDevice.html */,
+				8D5029E920D3DD7D00BC0437 /* set.html */,
+				8D5029EA20D3DD7D00BC0437 /* aboutDevice.html */,
+				8D5029EB20D3DD7D00BC0437 /* reports.html */,
+				8D5029EC20D3DD7D00BC0437 /* password.html */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		8D5029ED20D3DD7D00BC0437 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				8D5029EE20D3DD7D00BC0437 /* mint-ui.css */,
+				8D5029EF20D3DD7D00BC0437 /* fonts */,
+				8D5029F420D3DD7D00BC0437 /* bootstrap-slider.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		8D5029EF20D3DD7D00BC0437 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D5029F020D3DD7D00BC0437 /* icomoon.ttf */,
+				8D5029F120D3DD7D00BC0437 /* icomoon.woff */,
+				8D5029F220D3DD7D00BC0437 /* icomoon.eot */,
+				8D5029F320D3DD7D00BC0437 /* icomoon.svg */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8D5029F520D3DD7D00BC0437 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D5029F620D3DD7D00BC0437 /* default_avatar.png */,
+				8D5029F720D3DD7D00BC0437 /* aboutUs.png */,
+				8D5029F820D3DD7D00BC0437 /* login.png */,
+				8D5029F920D3DD7D00BC0437 /* loading.gif */,
+				8D5029FA20D3DD7D00BC0437 /* light.jpg */,
+				8D5029FB20D3DD7D00BC0437 /* logo.png */,
+				8D5029FC20D3DD7D00BC0437 /* round.gif */,
+				8D5029FD20D3DD7D00BC0437 /* failure.png */,
+				8D5029FE20D3DD7D00BC0437 /* network.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8D5029FF20D3DD7D00BC0437 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				8D502A0020D3DD7D00BC0437 /* bootstrap */,
+				8D502A0220D3DD7D00BC0437 /* vue */,
+				8D502A0B20D3DD7D00BC0437 /* jquery */,
+				8D502A1820D3DD7D00BC0437 /* require.js */,
+				8D502A1920D3DD7D00BC0437 /* constant.js */,
+				8D502A1A20D3DD7D00BC0437 /* ipad.js */,
+				8D502A1B20D3DD7D00BC0437 /* app.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		8D502A0020D3DD7D00BC0437 /* bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				8D502A0120D3DD7D00BC0437 /* bootstrap.min.js */,
+			);
+			path = bootstrap;
+			sourceTree = "<group>";
+		};
+		8D502A0220D3DD7D00BC0437 /* vue */ = {
+			isa = PBXGroup;
+			children = (
+				8D502A0320D3DD7D00BC0437 /* vue-touch.js */,
+				8D502A0420D3DD7D00BC0437 /* mint-ui.js */,
+				8D502A0520D3DD7D00BC0437 /* vue-i18n.min.js */,
+				8D502A0620D3DD7D00BC0437 /* vuex.min.js */,
+				8D502A0720D3DD7D00BC0437 /* vue-router.min.js */,
+				8D502A0820D3DD7D00BC0437 /* vue.min.js */,
+				8D502A0920D3DD7D00BC0437 /* layer.js */,
+				8D502A0A20D3DD7D00BC0437 /* text.js */,
+			);
+			path = vue;
+			sourceTree = "<group>";
+		};
+		8D502A0B20D3DD7D00BC0437 /* jquery */ = {
+			isa = PBXGroup;
+			children = (
+				8D502A0C20D3DD7D00BC0437 /* jquery-ui.min.js */,
+				8D502A0D20D3DD7D00BC0437 /* iscroll.js */,
+				8D502A0E20D3DD7D00BC0437 /* colorwheel.js */,
+				8D502A0F20D3DD7D00BC0437 /* jquery.panzoom.js */,
+				8D502A1020D3DD7D00BC0437 /* jquery.ui.touch-punch.min.js */,
+				8D502A1120D3DD7D00BC0437 /* jquery.min.js */,
+				8D502A1220D3DD7D00BC0437 /* jsplumb.min.js */,
+				8D502A1320D3DD7D00BC0437 /* fastclick.js */,
+				8D502A1420D3DD7D00BC0437 /* hammer.min.js */,
+				8D502A1520D3DD7D00BC0437 /* raphael.js */,
+				8D502A1620D3DD7D00BC0437 /* bootstrap-slider.min.js */,
+				8D502A1720D3DD7D00BC0437 /* echarts.min.js */,
+			);
+			path = jquery;
+			sourceTree = "<group>";
+		};
+		8D502A1C20D3DD7D00BC0437 /* lang */ = {
+			isa = PBXGroup;
+			children = (
+				8D502A1D20D3DD7D00BC0437 /* en.js */,
+				8D502A1E20D3DD7D00BC0437 /* zh.js */,
+			);
+			path = lang;
+			sourceTree = "<group>";
+		};
+		8D502AFC20D3DDBD00BC0437 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8D502AFD20D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.m */,
+				8D502AFE20D3DDBD00BC0437 /* WKWebViewJavascriptBridge.m */,
+				8D502AFF20D3DDBD00BC0437 /* WebViewJavascriptBridge.m */,
+				8D502B0020D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.h */,
+				8D502B0120D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.h */,
+				8D502B0220D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.m */,
+				8D502B0320D3DDBD00BC0437 /* WebViewJavascriptBridge.h */,
+				8D502B0420D3DDBD00BC0437 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		8D502B0920D3E74B00BC0437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D502B0A20D3E74B00BC0437 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8D95952F20D3C1C700FF6717 /* Tools */ = {
@@ -408,11 +968,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D502A7120D3DD7D00BC0437 /* attr.js in Resources */,
+				8D502A5E20D3DD7D00BC0437 /* joinDevice.js in Resources */,
+				8D502ABB20D3DD7D00BC0437 /* vue-touch.js in Resources */,
+				8D502A5B20D3DD7D00BC0437 /* user.js in Resources */,
 				8D0CDEF320CA8973004949E8 /* LaunchScreen.storyboard in Resources */,
+				8D502A8620D3DD7D00BC0437 /* deviceType.html in Resources */,
+				8D502A6F20D3DD7D00BC0437 /* groupColor.js in Resources */,
+				8D502AC420D3DD7D00BC0437 /* iscroll.js in Resources */,
+				8D502AC920D3DD7D00BC0437 /* jsplumb.min.js in Resources */,
+				8D502A8520D3DD7D00BC0437 /* setPair.html in Resources */,
+				8D502ABE20D3DD7D00BC0437 /* vuex.min.js in Resources */,
+				8D502A7820D3DD7D00BC0437 /* otaInfo.js in Resources */,
+				8D502A5420D3DD7D00BC0437 /* bootstrap-slider.min.css in Resources */,
+				8D502A6520D3DD7D00BC0437 /* colorPicker.js in Resources */,
+				8D502A6D20D3DD7D00BC0437 /* scanInfo.js in Resources */,
+				8D502ABF20D3DD7D00BC0437 /* vue-router.min.js in Resources */,
+				8D502AC720D3DD7D00BC0437 /* jquery.ui.touch-punch.min.js in Resources */,
+				8D502A9E20D3DD7D00BC0437 /* userinfo.html in Resources */,
+				8D502AD020D3DD7D00BC0437 /* constant.js in Resources */,
+				8D502A8820D3DD7D00BC0437 /* conDevice.html in Resources */,
+				8D502A6E20D3DD7D00BC0437 /* ibeacon.js in Resources */,
+				8D502AA020D3DD7D00BC0437 /* selectDevice.html in Resources */,
+				8D502A9A20D3DD7D00BC0437 /* remind.html in Resources */,
+				8D502A9820D3DD7D00BC0437 /* user.html in Resources */,
+				8D502A9720D3DD7D00BC0437 /* register.html in Resources */,
+				8D502AA720D3DD7D00BC0437 /* set.html in Resources */,
+				8D502AA620D3DD7D00BC0437 /* joinDevice.html in Resources */,
+				8D502A7E20D3DD7D00BC0437 /* debug.js in Resources */,
+				8D502A9320D3DD7D00BC0437 /* automation.html in Resources */,
+				8D502A9620D3DD7D00BC0437 /* recent.html in Resources */,
+				8D502AD220D3DD7D00BC0437 /* app.js in Resources */,
+				8D502A4F20D3DD7D00BC0437 /* style.css in Resources */,
+				8D502A7D20D3DD7D00BC0437 /* footer.js in Resources */,
+				8D502A8320D3DD7D00BC0437 /* scanInfo.html in Resources */,
+				8D502A9C20D3DD7D00BC0437 /* addDevice.html in Resources */,
+				8D502ACB20D3DD7D00BC0437 /* hammer.min.js in Resources */,
+				8D502AD420D3DD7D00BC0437 /* zh.js in Resources */,
+				8D502A7020D3DD7D00BC0437 /* base.js in Resources */,
+				8D502A7220D3DD7D00BC0437 /* operateDevice.js in Resources */,
+				8D502A7B20D3DD7D00BC0437 /* ibeaconInfo.js in Resources */,
+				8D502A6320D3DD7D00BC0437 /* index.js in Resources */,
+				8D502A9220D3DD7D00BC0437 /* operateDevice.html in Resources */,
+				8D502A5520D3DD7D00BC0437 /* setPair.js in Resources */,
+				8D502ACA20D3DD7D00BC0437 /* fastclick.js in Resources */,
+				8D502A9020D3DD7D00BC0437 /* ibeaconInfo.html in Resources */,
+				8D502A9F20D3DD7D00BC0437 /* deviceTypeInfo.html in Resources */,
+				8D502A5820D3DD7D00BC0437 /* addDevice.js in Resources */,
+				8D502AB720D3DD7D00BC0437 /* round.gif in Resources */,
+				8D502AA120D3DD7D00BC0437 /* groupInfo.html in Resources */,
+				8D502AAE20D3DD7D00BC0437 /* icomoon.eot in Resources */,
 				8D0CDEF020CA8973004949E8 /* Assets.xcassets in Resources */,
+				8D502A8020D3DD7D00BC0437 /* aboutUs.js in Resources */,
+				8D502A8A20D3DD7D00BC0437 /* scan.html in Resources */,
+				8D502A8E20D3DD7D00BC0437 /* group.html in Resources */,
+				8D502A9B20D3DD7D00BC0437 /* ibeacon.html in Resources */,
+				8D502A9420D3DD7D00BC0437 /* debugInfo.html in Resources */,
+				8D502AC120D3DD7D00BC0437 /* layer.js in Resources */,
+				8D502AB520D3DD7D00BC0437 /* light.jpg in Resources */,
+				8D502AAA20D3DD7D00BC0437 /* password.html in Resources */,
+				8D502ABC20D3DD7D00BC0437 /* mint-ui.js in Resources */,
+				8D502A7F20D3DD7D00BC0437 /* debugInfo.js in Resources */,
+				8D502A7620D3DD7D00BC0437 /* userinfo.js in Resources */,
+				8D502A8120D3DD7D00BC0437 /* groupColor.html in Resources */,
+				8D502A8D20D3DD7D00BC0437 /* pair.html in Resources */,
+				8D502A5720D3DD7D00BC0437 /* setDevicePair.js in Resources */,
+				8D502AA520D3DD7D00BC0437 /* footer.html in Resources */,
+				8D502AAC20D3DD7D00BC0437 /* icomoon.ttf in Resources */,
+				8D502AB220D3DD7D00BC0437 /* aboutUs.png in Resources */,
+				8D502A5A20D3DD7D00BC0437 /* groupInfo.js in Resources */,
+				8D502A6720D3DD7D00BC0437 /* remind.js in Resources */,
+				8D502AAD20D3DD7D00BC0437 /* icomoon.woff in Resources */,
+				8D502A7920D3DD7D00BC0437 /* reports.js in Resources */,
+				8D502AB020D3DD7D00BC0437 /* bootstrap-slider.min.css in Resources */,
+				8D502AB620D3DD7D00BC0437 /* logo.png in Resources */,
 				8D9595DA20D3C4A400FF6717 /* Documentation.html in Resources */,
+				8D502A5020D3DD7D00BC0437 /* icomoon.ttf in Resources */,
+				8D502A5320D3DD7D00BC0437 /* icomoon.svg in Resources */,
+				8D502A7520D3DD7D00BC0437 /* scanContent.js in Resources */,
+				8D502AA420D3DD7D00BC0437 /* debug.html in Resources */,
+				8D502A5620D3DD7D00BC0437 /* automation.js in Resources */,
+				8D502A6920D3DD7D00BC0437 /* load.js in Resources */,
+				8D502AD320D3DD7D00BC0437 /* en.js in Resources */,
+				8D502A9520D3DD7D00BC0437 /* attr.html in Resources */,
+				8D502AB820D3DD7D00BC0437 /* failure.png in Resources */,
+				8D502A9D20D3DD7D00BC0437 /* scanDevice.html in Resources */,
+				8D502A7A20D3DD7D00BC0437 /* recent.js in Resources */,
+				8D502AC520D3DD7D00BC0437 /* colorwheel.js in Resources */,
+				8D502A5F20D3DD7D00BC0437 /* aboutDevice.js in Resources */,
+				8D502A5D20D3DD7D00BC0437 /* conDevice.js in Resources */,
+				8D502A5C20D3DD7D00BC0437 /* addGroup.js in Resources */,
+				8D502A6C20D3DD7D00BC0437 /* selectDevice.js in Resources */,
+				8D502AC020D3DD7D00BC0437 /* vue.min.js in Resources */,
+				8D502A5120D3DD7D00BC0437 /* icomoon.woff in Resources */,
+				8D502A8C20D3DD7D00BC0437 /* addGroup.html in Resources */,
+				8D502A7320D3DD7D00BC0437 /* pair.js in Resources */,
+				8D502AC220D3DD7D00BC0437 /* text.js in Resources */,
+				8D502ACC20D3DD7D00BC0437 /* raphael.js in Resources */,
+				8D502AB320D3DD7D00BC0437 /* login.png in Resources */,
+				8D502A8920D3DD7D00BC0437 /* index.html in Resources */,
+				8D502AA820D3DD7D00BC0437 /* aboutDevice.html in Resources */,
+				8D502A5920D3DD7D00BC0437 /* resetDevice.js in Resources */,
+				8D502A8720D3DD7D00BC0437 /* scanContent.html in Resources */,
+				8D502A9120D3DD7D00BC0437 /* pairList.html in Resources */,
+				8D502ACF20D3DD7D00BC0437 /* require.js in Resources */,
+				8D502A4E20D3DD7D00BC0437 /* mint-ui.css in Resources */,
+				8D502A8420D3DD7D00BC0437 /* colorPicker.html in Resources */,
+				8D502AB920D3DD7D00BC0437 /* network.png in Resources */,
+				8D502ACD20D3DD7D00BC0437 /* bootstrap-slider.min.js in Resources */,
+				8D502AFB20D3DD7D00BC0437 /* app.html in Resources */,
+				8D502AC320D3DD7D00BC0437 /* jquery-ui.min.js in Resources */,
+				8D502A7C20D3DD7D00BC0437 /* group.js in Resources */,
+				8D502AC820D3DD7D00BC0437 /* jquery.min.js in Resources */,
+				8D502A6420D3DD7D00BC0437 /* register.js in Resources */,
+				8D502A6120D3DD7D00BC0437 /* deviceTypeInfo.js in Resources */,
+				8D502A5220D3DD7D00BC0437 /* icomoon.eot in Resources */,
+				8D502ABD20D3DD7D00BC0437 /* vue-i18n.min.js in Resources */,
+				8D502AAB20D3DD7D00BC0437 /* mint-ui.css in Resources */,
+				8D502A6020D3DD7D00BC0437 /* scanDevice.js in Resources */,
+				8D502AA320D3DD7D00BC0437 /* resetDevice.html in Resources */,
+				8D502A8B20D3DD7D00BC0437 /* load.html in Resources */,
+				8D502A7420D3DD7D00BC0437 /* deviceType.js in Resources */,
+				8D502AC620D3DD7D00BC0437 /* jquery.panzoom.js in Resources */,
+				8D502A6B20D3DD7D00BC0437 /* router.js in Resources */,
+				8D502A6820D3DD7D00BC0437 /* password.js in Resources */,
+				8D502A8F20D3DD7D00BC0437 /* setDevicePair.html in Resources */,
+				8D502AA220D3DD7D00BC0437 /* otaInfo.html in Resources */,
+				8D502A9920D3DD7D00BC0437 /* login.html in Resources */,
+				8D502AB120D3DD7D00BC0437 /* default_avatar.png in Resources */,
 				8D9595E220D3C4A400FF6717 /* README.txt in Resources */,
+				8D502ACE20D3DD7D00BC0437 /* echarts.min.js in Resources */,
+				8D502A8220D3DD7D00BC0437 /* aboutUs.html in Resources */,
+				8D502A6A20D3DD7D00BC0437 /* login.js in Resources */,
+				8D502AAF20D3DD7D00BC0437 /* icomoon.svg in Resources */,
+				8D502AA920D3DD7D00BC0437 /* reports.html in Resources */,
+				8D502A6620D3DD7D00BC0437 /* set.js in Resources */,
+				8D502A6220D3DD7D00BC0437 /* pairList.js in Resources */,
+				8D502AB420D3DD7D00BC0437 /* loading.gif in Resources */,
 				8D0CDEEE20CA8972004949E8 /* Main.storyboard in Resources */,
+				8D502AD120D3DD7D00BC0437 /* ipad.js in Resources */,
+				8D502A7720D3DD7D00BC0437 /* scan.js in Resources */,
+				8D502ABA20D3DD7D00BC0437 /* bootstrap.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +1134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9595E120D3C4A400FF6717 /* DDMultiFormatter.m in Sources */,
+				8D502B0620D3DDBD00BC0437 /* WKWebViewJavascriptBridge.m in Sources */,
 				8D9595E520D3C4A400FF6717 /* DDFileLogger.m in Sources */,
 				8D95953120D3C20600FF6717 /* ZBESPToolsSwift.swift in Sources */,
 				8D9595E020D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m in Sources */,
@@ -446,6 +1143,7 @@
 				8D95952E20D3B6B700FF6717 /* MainWebViewController.swift in Sources */,
 				8D9595DC20D3C4A400FF6717 /* GCDAsyncSocket.m in Sources */,
 				8D3A480D20CF798B00CC161D /* ZBUdpScanManager.swift in Sources */,
+				8D502B0820D3DDBD00BC0437 /* WebViewJavascriptBridge_JS.m in Sources */,
 				8D9595DF20D3C4A400FF6717 /* DDContextFilterLogFormatter.m in Sources */,
 				8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */,
 				8D95953420D3C22600FF6717 /* ZBESPToolsOC.m in Sources */,
@@ -454,6 +1152,8 @@
 				8D9595E320D3C4A400FF6717 /* DDLog.m in Sources */,
 				8D9595DD20D3C4A400FF6717 /* DDTTYLogger.m in Sources */,
 				8D5F42AB20D39AE0004E2226 /* ZBESPHTTPManager.swift in Sources */,
+				8D502B0520D3DDBD00BC0437 /* WebViewJavascriptBridgeBase.m in Sources */,
+				8D502B0720D3DDBD00BC0437 /* WebViewJavascriptBridge.m in Sources */,
 				8D5F42A920D22460004E2226 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

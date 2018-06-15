@@ -19,7 +19,7 @@ protocol ZBESPManagerDelegate {
 }
 
 class ZBESPManager: NSObject {
-    ////对外暴露类单例
+    ////******对外暴露类单例
     private static var _instance: ZBESPManager! = nil
     static var instance: ZBESPManager! {
         get {
@@ -34,36 +34,40 @@ class ZBESPManager: NSObject {
         }
     }
     
-    ////初始化配置信息
+    ////******初始化配置信息
     private var delegate:ZBESPManagerDelegate!//数据回掉代理
     private var owner:String!//后续本地用，设置本地数据库用户信息
     func setConfig(Delegate:ZBESPManagerDelegate!,Owner:String!) {
         delegate=Delegate
         owner=Owner
     }
-    ////蓝牙配网 发送Wi-Fi名密码
+    ////******蓝牙配网 发送Wi-Fi名密码
     func starBlePair(wifiName:String,passWord:String,callBack:((String)->Void)) {
         
     }
     func cancleBlePair() {//取消蓝牙配网
         
     }
-    ////设备信息:增、删、改、查
+    ////******设备信息:增、删、改、查
+    //
+    //
     //
     //
     
-    ////数据：传感器、状态
+    
+    
+    ////******数据：传感器、状态
     //订阅消息
     //取消订阅
     //数据回传
     //发送控制指令
     
     
-    ////设备环境变化：根节点，设备数量等
+    ////******设备环境变化：根节点，设备数量等
     
-    ////手机环境变化：Wi-Fi状态，蓝牙状态，进入后台，进入前台，socket、http连接等等
+    ////******手机环境变化：Wi-Fi状态，蓝牙状态，进入后台，进入前台，socket、http连接等等
     
-    ////其它方法
+    ////******其它方法
     //获取当前连接wifi名
     var currentWifiName: String?{
         get {

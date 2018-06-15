@@ -1,0 +1,25 @@
+<div class="init-width">
+    <transition name="moves">
+        <div v-show="flag" class="add-info operate-way">
+            <div class="title-info">
+                <h4 class="app-title">
+                    <span @click="hide"><i class="icon-left back"></i></span>
+                    {{$t('topologyInfo')}}
+                </h4>
+            </div>
+            <div class="ibeacon-footer" style="margin-top: 0;">
+                <p><span>free_heap:</span><span>{{debug.free_heap}}</span></p>
+                <p><span>running_time:</span><span>{{debug.running_time}}</span></p>
+                <p><span>compile_time:</span><span>{{debug.compile_time}}</span></p>
+                <p><span>max_layer:</span><span>{{debug.max_layer}}</span></p>
+                <p><span>max_connections:</span><span>{{debug.max_connections}}</span></p>
+                <p><span>layer:</span><span>{{debug.layer}}</span></p>
+                <p><span>parent_mac:</span><span>{{debug.parent_mac}}</span></p>
+                <p><span>type:</span><span>{{debug.type}}</span></p>
+                <p><span>beacon_interval:</span><span>{{debug.beacon_interval}}</span></p>
+                <p><span>scan_time:</span><span>{{debug.scan_time}}</span></p>
+                <p><span>mac:</span><span>{{debug.mac}}</span></p>
+            </div>
+        </div>
+    </transition>
+</div>

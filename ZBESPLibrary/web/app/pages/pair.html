@@ -1,0 +1,48 @@
+<div class="init-width">
+    <transition name="moves">
+        <div v-show="flag" class="add-info operate-way">
+            <div class="title-info">
+                <h4 class="app-title">
+                    <span @click="hide"><i class="icon-left back"></i></span>
+                    {{$t('pair')}}
+                </h4>
+                <i @click.stop="addPair($event)" class="icon-plus right-top"></i>
+            </div>
+            <div class="content-info flex attr">
+                <div v-show="!showAdd">
+                    <div v-for="item in pairList" :data-mac="item.mac" v-touch:long="showPairOperate" class="item">
+                        <div :data-mac="item.mac" class="item-icon-circle">
+                            <i :data-mac="item.mac" class="icon-light icon-blue"></i>
+                        </div>
+                        <div :data-mac="item.mac" class="item-name">
+                            <span :data-mac="item.mac">{{item.floor}}-{{item.area}}{{item.code}}</span>
+                            <span :data-mac="item.mac" class="desc">MAC: {{item.mac}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div v-show="showAdd" class="add-wrapper">
+                    <h3>{{$t('addPair')}}</h3>
+                    <p>{{$t('pairListDesc')}}</p>
+                    <div @click="addPair($event)">
+                        <i class="icon-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <transition name="ups">
+                <div v-show="pairShow" class="operate-wrapper">
+                    <div @click="hideInfo" class="mask"></div>
+                    <div class="operate-info">
+                        <ul v-if="pairInfo">
+                            <li @click="editPair"><span>{{$t('editBtn')}}</span></li>
+                            <li @click="delPair"><span class="icon-orange">{{$t('deleteBtn')}}</span></li>
+                            <li @click="hideInfo" class="margin-top-15 no-border"><span>{{$t('cancelBtn')}}</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </transition>
+            <v-setPair v-on:setPairShow="onBackPair" :pairInfo="pairInfo" ref="setPair"></v-setPair>
+        </div>
+    </transition>
+
+</div>
