@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8D0CDEE720CA8972004949E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDEE620CA8972004949E8 /* AppDelegate.swift */; };
-		8D0CDEE920CA8972004949E8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDEE820CA8972004949E8 /* FirstViewController.swift */; };
-		8D0CDEEB20CA8972004949E8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDEEA20CA8972004949E8 /* SecondViewController.swift */; };
 		8D0CDEEE20CA8972004949E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0CDEEC20CA8972004949E8 /* Main.storyboard */; };
 		8D0CDEF020CA8973004949E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0CDEEF20CA8973004949E8 /* Assets.xcassets */; };
 		8D0CDEF320CA8973004949E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0CDEF120CA8973004949E8 /* LaunchScreen.storyboard */; };
 		8D0CDEFE20CA8973004949E8 /* ZBESPLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDEFD20CA8973004949E8 /* ZBESPLibraryTests.swift */; };
 		8D0CDF0920CA8973004949E8 /* ZBESPLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CDF0820CA8973004949E8 /* ZBESPLibraryUITests.swift */; };
 		8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A480A20CE22E100CC161D /* ZBESPManager.swift */; };
+		8D3A480D20CF798B00CC161D /* ZBUdpScanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A480C20CF798B00CC161D /* ZBUdpScanManager.swift */; };
+		8D5F42A920D22460004E2226 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F42A820D22460004E2226 /* HomeViewController.swift */; };
+		8D5F42AB20D39AE0004E2226 /* ZBESPHTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F42AA20D39AE0004E2226 /* ZBESPHTTPManager.swift */; };
+		8D95952E20D3B6B700FF6717 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */; };
+		8D95953120D3C20600FF6717 /* ZBESPToolsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95953020D3C20600FF6717 /* ZBESPToolsSwift.swift */; };
+		8D95953420D3C22600FF6717 /* ZBESPToolsOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D95953320D3C22600FF6717 /* ZBESPToolsOC.m */; };
+		8D9595DA20D3C4A400FF6717 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D9595AE20D3C4A400FF6717 /* Documentation.html */; };
+		8D9595DB20D3C4A400FF6717 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595AF20D3C4A400FF6717 /* GCDAsyncUdpSocket.m */; };
+		8D9595DC20D3C4A400FF6717 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595B020D3C4A400FF6717 /* GCDAsyncSocket.m */; };
+		8D9595DD20D3C4A400FF6717 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595B620D3C4A400FF6717 /* DDTTYLogger.m */; };
+		8D9595DE20D3C4A400FF6717 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595B920D3C4A400FF6717 /* DDASLLogger.m */; };
+		8D9595DF20D3C4A400FF6717 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595BC20D3C4A400FF6717 /* DDContextFilterLogFormatter.m */; };
+		8D9595E020D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595BD20D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m */; };
+		8D9595E120D3C4A400FF6717 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595C020D3C4A400FF6717 /* DDMultiFormatter.m */; };
+		8D9595E220D3C4A400FF6717 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D9595C220D3C4A400FF6717 /* README.txt */; };
+		8D9595E320D3C4A400FF6717 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595C320D3C4A400FF6717 /* DDLog.m */; };
+		8D9595E420D3C4A400FF6717 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595C620D3C4A400FF6717 /* DDAbstractDatabaseLogger.m */; };
+		8D9595E520D3C4A400FF6717 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9595C720D3C4A400FF6717 /* DDFileLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +54,6 @@
 /* Begin PBXFileReference section */
 		8D0CDEE320CA8972004949E8 /* ZBESPLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBESPLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0CDEE620CA8972004949E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D0CDEE820CA8972004949E8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8D0CDEEA20CA8972004949E8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8D0CDEED20CA8972004949E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D0CDEEF20CA8973004949E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0CDEF220CA8973004949E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,38 @@
 		8D0CDF0820CA8973004949E8 /* ZBESPLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPLibraryUITests.swift; sourceTree = "<group>"; };
 		8D0CDF0A20CA8973004949E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3A480A20CE22E100CC161D /* ZBESPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPManager.swift; sourceTree = "<group>"; };
+		8D3A480C20CF798B00CC161D /* ZBUdpScanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBUdpScanManager.swift; sourceTree = "<group>"; };
+		8D3A480E20CF79F000CC161D /* ZBESPLibrary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZBESPLibrary-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D5F42A820D22460004E2226 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8D5F42AA20D39AE0004E2226 /* ZBESPHTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPHTTPManager.swift; sourceTree = "<group>"; };
+		8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
+		8D95953020D3C20600FF6717 /* ZBESPToolsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBESPToolsSwift.swift; sourceTree = "<group>"; };
+		8D95953220D3C22600FF6717 /* ZBESPToolsOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBESPToolsOC.h; sourceTree = "<group>"; };
+		8D95953320D3C22600FF6717 /* ZBESPToolsOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBESPToolsOC.m; sourceTree = "<group>"; };
+		8D9595AE20D3C4A400FF6717 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		8D9595AF20D3C4A400FF6717 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		8D9595B020D3C4A400FF6717 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8D9595B120D3C4A400FF6717 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		8D9595B220D3C4A400FF6717 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8D9595B320D3C4A400FF6717 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		8D9595B620D3C4A400FF6717 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		8D9595B720D3C4A400FF6717 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		8D9595B820D3C4A400FF6717 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		8D9595B920D3C4A400FF6717 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		8D9595BA20D3C4A400FF6717 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		8D9595BC20D3C4A400FF6717 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		8D9595BD20D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		8D9595BE20D3C4A400FF6717 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		8D9595BF20D3C4A400FF6717 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		8D9595C020D3C4A400FF6717 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		8D9595C120D3C4A400FF6717 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		8D9595C220D3C4A400FF6717 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8D9595C320D3C4A400FF6717 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		8D9595C420D3C4A400FF6717 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		8D9595C520D3C4A400FF6717 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		8D9595C620D3C4A400FF6717 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		8D9595C720D3C4A400FF6717 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		8D9595C820D3C4A400FF6717 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +127,7 @@
 		8D0CDEDA20CA8972004949E8 = {
 			isa = PBXGroup;
 			children = (
+				8D3A480E20CF79F000CC161D /* ZBESPLibrary-Bridging-Header.h */,
 				8D3A480520CE208F00CC161D /* ZBESPManager */,
 				8D0CDEE520CA8972004949E8 /* ZBESPLibrary */,
 				8D0CDEFC20CA8973004949E8 /* ZBESPLibraryTests */,
@@ -103,12 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				8D0CDEE620CA8972004949E8 /* AppDelegate.swift */,
-				8D0CDEE820CA8972004949E8 /* FirstViewController.swift */,
-				8D0CDEEA20CA8972004949E8 /* SecondViewController.swift */,
-				8D0CDEEC20CA8972004949E8 /* Main.storyboard */,
+				8D95952D20D3B6B700FF6717 /* MainWebViewController.swift */,
 				8D0CDEEF20CA8973004949E8 /* Assets.xcassets */,
 				8D0CDEF120CA8973004949E8 /* LaunchScreen.storyboard */,
 				8D0CDEF420CA8973004949E8 /* Info.plist */,
+				8D0CDEEC20CA8972004949E8 /* Main.storyboard */,
+				8D5F42A820D22460004E2226 /* HomeViewController.swift */,
 			);
 			path = ZBESPLibrary;
 			sourceTree = "<group>";
@@ -135,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				8D3A480A20CE22E100CC161D /* ZBESPManager.swift */,
+				8D95952F20D3C1C700FF6717 /* Tools */,
 				8D3A480920CE229F00CC161D /* ZBDeviceManager */,
 				8D3A480820CE21CC00CC161D /* ZBIOManager */,
 				8D3A480720CE21B500CC161D /* ZBDataManager */,
@@ -146,6 +194,7 @@
 		8D3A480620CE213700CC161D /* ZBLinkManager */ = {
 			isa = PBXGroup;
 			children = (
+				8D3A480C20CF798B00CC161D /* ZBUdpScanManager.swift */,
 			);
 			path = ZBLinkManager;
 			sourceTree = "<group>";
@@ -160,6 +209,7 @@
 		8D3A480820CE21CC00CC161D /* ZBIOManager */ = {
 			isa = PBXGroup;
 			children = (
+				8D5F42AA20D39AE0004E2226 /* ZBESPHTTPManager.swift */,
 			);
 			path = ZBIOManager;
 			sourceTree = "<group>";
@@ -169,6 +219,88 @@
 			children = (
 			);
 			path = ZBDeviceManager;
+			sourceTree = "<group>";
+		};
+		8D95952F20D3C1C700FF6717 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595AC20D3C4A400FF6717 /* CocoaAsyncSocket */,
+				8D95953520D3C32600FF6717 /* ESP_Old */,
+				8D95953020D3C20600FF6717 /* ZBESPToolsSwift.swift */,
+				8D95953220D3C22600FF6717 /* ZBESPToolsOC.h */,
+				8D95953320D3C22600FF6717 /* ZBESPToolsOC.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8D95953520D3C32600FF6717 /* ESP_Old */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ESP_Old;
+			sourceTree = "<group>";
+		};
+		8D9595AC20D3C4A400FF6717 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595AD20D3C4A400FF6717 /* GCD */,
+				8D9595B320D3C4A400FF6717 /* CocoaAsyncSocket.h */,
+				8D9595B420D3C4A400FF6717 /* Vendor */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		8D9595AD20D3C4A400FF6717 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595AE20D3C4A400FF6717 /* Documentation.html */,
+				8D9595AF20D3C4A400FF6717 /* GCDAsyncUdpSocket.m */,
+				8D9595B020D3C4A400FF6717 /* GCDAsyncSocket.m */,
+				8D9595B120D3C4A400FF6717 /* GCDAsyncUdpSocket.h */,
+				8D9595B220D3C4A400FF6717 /* GCDAsyncSocket.h */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		8D9595B420D3C4A400FF6717 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595B520D3C4A400FF6717 /* CocoaLumberjack */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8D9595B520D3C4A400FF6717 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595B620D3C4A400FF6717 /* DDTTYLogger.m */,
+				8D9595B720D3C4A400FF6717 /* DDLog.h */,
+				8D9595B820D3C4A400FF6717 /* DDAbstractDatabaseLogger.h */,
+				8D9595B920D3C4A400FF6717 /* DDASLLogger.m */,
+				8D9595BA20D3C4A400FF6717 /* DDFileLogger.h */,
+				8D9595BB20D3C4A400FF6717 /* Extensions */,
+				8D9595C320D3C4A400FF6717 /* DDLog.m */,
+				8D9595C420D3C4A400FF6717 /* DDTTYLogger.h */,
+				8D9595C520D3C4A400FF6717 /* DDLog+LOGV.h */,
+				8D9595C620D3C4A400FF6717 /* DDAbstractDatabaseLogger.m */,
+				8D9595C720D3C4A400FF6717 /* DDFileLogger.m */,
+				8D9595C820D3C4A400FF6717 /* DDASLLogger.h */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		8D9595BB20D3C4A400FF6717 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D9595BC20D3C4A400FF6717 /* DDContextFilterLogFormatter.m */,
+				8D9595BD20D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m */,
+				8D9595BE20D3C4A400FF6717 /* DDMultiFormatter.h */,
+				8D9595BF20D3C4A400FF6717 /* DDContextFilterLogFormatter.h */,
+				8D9595C020D3C4A400FF6717 /* DDMultiFormatter.m */,
+				8D9595C120D3C4A400FF6717 /* DDDispatchQueueLogFormatter.h */,
+				8D9595C220D3C4A400FF6717 /* README.txt */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +371,7 @@
 				TargetAttributes = {
 					8D0CDEE220CA8972004949E8 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					8D0CDEF820CA8973004949E8 = {
 						CreatedOnToolsVersion = 9.4;
@@ -277,6 +410,8 @@
 			files = (
 				8D0CDEF320CA8973004949E8 /* LaunchScreen.storyboard in Resources */,
 				8D0CDEF020CA8973004949E8 /* Assets.xcassets in Resources */,
+				8D9595DA20D3C4A400FF6717 /* Documentation.html in Resources */,
+				8D9595E220D3C4A400FF6717 /* README.txt in Resources */,
 				8D0CDEEE20CA8972004949E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +437,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9595E120D3C4A400FF6717 /* DDMultiFormatter.m in Sources */,
+				8D9595E520D3C4A400FF6717 /* DDFileLogger.m in Sources */,
+				8D95953120D3C20600FF6717 /* ZBESPToolsSwift.swift in Sources */,
+				8D9595E020D3C4A400FF6717 /* DDDispatchQueueLogFormatter.m in Sources */,
+				8D9595E420D3C4A400FF6717 /* DDAbstractDatabaseLogger.m in Sources */,
+				8D9595DB20D3C4A400FF6717 /* GCDAsyncUdpSocket.m in Sources */,
+				8D95952E20D3B6B700FF6717 /* MainWebViewController.swift in Sources */,
+				8D9595DC20D3C4A400FF6717 /* GCDAsyncSocket.m in Sources */,
+				8D3A480D20CF798B00CC161D /* ZBUdpScanManager.swift in Sources */,
+				8D9595DF20D3C4A400FF6717 /* DDContextFilterLogFormatter.m in Sources */,
 				8D3A480B20CE22E100CC161D /* ZBESPManager.swift in Sources */,
-				8D0CDEEB20CA8972004949E8 /* SecondViewController.swift in Sources */,
+				8D95953420D3C22600FF6717 /* ZBESPToolsOC.m in Sources */,
 				8D0CDEE720CA8972004949E8 /* AppDelegate.swift in Sources */,
-				8D0CDEE920CA8972004949E8 /* FirstViewController.swift in Sources */,
+				8D9595DE20D3C4A400FF6717 /* DDASLLogger.m in Sources */,
+				8D9595E320D3C4A400FF6717 /* DDLog.m in Sources */,
+				8D9595DD20D3C4A400FF6717 /* DDTTYLogger.m in Sources */,
+				8D5F42AB20D39AE0004E2226 /* ZBESPHTTPManager.swift in Sources */,
+				8D5F42A920D22460004E2226 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,15 +627,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XT9APQE2AN;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
 				INFOPLIST_FILE = ZBESPLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.ZBESPLibrary;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.esplibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZBESPLibrary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,15 +649,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XT9APQE2AN;
+				DEVELOPMENT_TEAM = QWXF6GB4AV;
 				INFOPLIST_FILE = ZBESPLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.ZBESPLibrary;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.esplibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZBESPLibrary-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
